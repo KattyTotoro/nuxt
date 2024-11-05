@@ -69,7 +69,7 @@ header {
 .tabs {
     /* Относительное позиционирование */
     position: relative;
-    top: -47px;
+    top: -48px;
 
     margin-left: 200px;
     /* margin-right: 143px; */
@@ -97,11 +97,12 @@ header {
     /* Поля вокруг текста */
     padding: 10px 10px;
     /* Параметры рамки */
-    border: 1px solid #666;
+    border: 3px solid #dfeffe;
     border-radius: 10px 10px 0 0;
     /* Снизу линию убираем */
     border-bottom: none;
     text-align: center;
+    box-shadow: 0 0 20px whitesmoke;
 }
 
 /* Содержимое вкладки */
@@ -110,15 +111,16 @@ header {
     /* Абсолютное позиционирование */
     position: absolute;
     /* Параметры рамки */
-    border: 1px solid #666;
+    border: 2px solid #dfeffe;
     /* Поля вокруг текста */
     padding: 10px;
     /* Размещаем у левого края */
     left: 0;
     /* Ширина содержимого */
-    width: 100%;
+    width: calc(100% - 22px);
     /* Прячем вкладку */
     display: none;
+    box-shadow: 0 0 20px rgb(134, 134, 134);
 }
 
 .tab :checked+.tab-title {
@@ -127,7 +129,7 @@ header {
     /* Цвет фона */
     background: #fff;
     /* Сдвигаем вниз */
-    top: 1px;
+    top: 2px;
     /* Отображаем поверх содержимого */
     z-index: 1;
 }
