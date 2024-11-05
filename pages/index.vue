@@ -10,43 +10,43 @@
         <div class="tab">
             <input type="radio" id="tab1" name="tab-group" checked>
             <label for="tab1" class="tab-title">Главная</label>
-            <section class="tab-content">Один</section>
+            <section class="tab-content">Главная</section>
         </div>
 
         <div class="tab">
             <input type="radio" id="tab2" name="tab-group">
             <label for="tab2" class="tab-title">Статьи</label>
-            <section class="tab-content">Два</section>
+            <section class="tab-content">Статьи</section>
         </div>
 
         <div class="tab">
             <input type="radio" id="tab3" name="tab-group">
             <label for="tab3" class="tab-title">Видео</label>
-            <section class="tab-content">Три</section>
+            <section class="tab-content">Видео</section>
         </div>
 
         <div class="tab">
             <input type="radio" id="tab4" name="tab-group">
             <label for="tab4" class="tab-title">Музыка</label>
-            <section class="tab-content">Четыре</section>
+            <section class="tab-content">Музыка</section>
         </div>
 
         <div class="tab">
             <input type="radio" id="tab5" name="tab-group">
             <label for="tab5" class="tab-title">Рецепты</label>
-            <section class="tab-content">Пять</section>
+            <section class="tab-content">Рецепт</section>
         </div>
 
         <div class="tab">
             <input type="radio" id="tab6" name="tab-group">
             <label for="tab6" class="tab-title">Путешествия</label>
-            <section class="tab-content">Шесть</section>
+            <section class="tab-content">Путешествия</section>
         </div>
 
         <div class="tab">
             <input type="radio" id="tab7" name="tab-group">
             <label for="tab7" class="tab-title">Подкаст</label>
-            <section class="tab-content">Семь</section>
+            <section class="tab-content">Подкаст</section>
         </div>
 
     </div>
@@ -65,69 +65,76 @@ header {
     background: url(img/sky.jpg) top/cover no-repeat;
 }
 
+/* Все вкладки */
 .tabs {
-    position: relative;
     /* Относительное позиционирование */
+    position: relative;
     margin-left: 200px;
+    /* margin-right: 143px; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2rem;
 }
 
+/* Вкладка, заголовок вкладки */
 .tab,
 .tab-title {
-    display: inline-block;
     /* Выстраиваем по горизонтали */
+    display: inline-block;
 }
 
+/* Вкладка */
 .tab input[type="radio"] {
     display: none;
 }
 
+/* Заголовок вкладки */
 .tab-title {
     width: 200px;
-    background: #dfeffe;
     /* Цвет фона */
-    padding: 10px 10px;
+    background: #dfeffe;
     /* Поля вокруг текста */
-    border: 1px solid #666;
+    padding: 10px 10px;
     /* Параметры рамки */
-    border-bottom: none;
-    /* Снизу линию убираем */
+    border: 1px solid #666;
     border-radius: 10px 10px 0 0;
+    /* Снизу линию убираем */
+    border-bottom: none;
     text-align: center;
 }
 
+/* Содержимое вкладки */
 .tab-content {
     height: 800px;
-    position: absolute;
     /* Абсолютное позиционирование */
-    border: 1px solid #666;
+    position: absolute;
     /* Параметры рамки */
-    padding: 10px;
+    border: 1px solid #666;
     /* Поля вокруг текста */
-    left: 0;
+    padding: 10px;
     /* Размещаем у левого края */
-    width: calc(100% - 20px);
+    left: 0;
     /* Ширина содержимого */
-    display: none;
+    width: 100%;
     /* Прячем вкладку */
+    display: none;
 }
 
 .tab :checked+.tab-title {
-    position: relative;
     /* Относительное позиционирование */
-    background: #fff;
+    position: relative;
     /* Цвет фона */
-    top: 1px;
+    background: #fff;
     /* Сдвигаем вниз */
-    z-index: 1;
+    top: 1px;
     /* Отображаем поверх содержимого */
+    z-index: 1;
 }
 
 .tab :checked~.tab-content {
-    display: block;
     /* Показываем активную вкладку */
+    display: block;
 }
 
-/* https://webref.ru/layout/pseudo-class-checked/tabs */
+/* Источник с вкладками: https://webref.ru/layout/pseudo-class-checked/tabs */
+/* Полезная ссылка: http://swiperjs.com/ */
 </style>
