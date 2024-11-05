@@ -61,7 +61,7 @@
 }
 
 header {
-    height: 300px;
+    height: 400px;
     background: url(img/sky.jpg) top/cover no-repeat;
 }
 
@@ -69,6 +69,8 @@ header {
 .tabs {
     /* Относительное позиционирование */
     position: relative;
+    top: -47px;
+
     margin-left: 200px;
     /* margin-right: 143px; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -91,7 +93,7 @@ header {
 .tab-title {
     width: 200px;
     /* Цвет фона */
-    background: #dfeffe;
+    background: #dfeffe78;
     /* Поля вокруг текста */
     padding: 10px 10px;
     /* Параметры рамки */
