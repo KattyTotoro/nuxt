@@ -5,6 +5,17 @@
 
     <header></header>
 
+    <nav>
+    <ul>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    </ul>
+    </nav>
+
     <div class="tabs">
 
         <div class="tab">
@@ -138,12 +149,15 @@ width: 100%;
     background: url(img/sky.jpg) top/cover no-repeat fixed;
 }
 
+nav {
+    position: relative;
+}
+
 /* Все вкладки */
 .tabs {
     /* Относительное позиционирование */
     position: relative;
     top: -48px;
-
     margin-left: 200px;
     /* margin-right: 143px; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
