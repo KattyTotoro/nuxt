@@ -10,7 +10,43 @@
         <div class="tab">
             <input type="radio" id="tab1" name="tab-group" checked>
             <label for="tab1" class="tab-title">Главная</label>
-            <section class="tab-content">Главная</section>
+            <section class="tab-content">
+            <h1>Главная</h1>
+
+             <div>
+             <h2>Lorem illo!</h2>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
+             </div>   
+             <div>
+             <h2>Lorem illo!</h2>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
+             </div>   
+             <div>
+             <h2>Lorem illo!</h2>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
+             </div>   
+             <div>
+             <h2>Lorem illo!</h2>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
+             </div>   
+             <div>
+             <h2>Lorem illo!</h2>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
+             </div>   
+             <div>
+             <h2>Lorem illo!</h2>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
+             </div>   
+             <div>
+             <h2>Lorem illo!</h2>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
+             </div>   
+             <div>
+             <h2>Lorem illo!</h2>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
+             </div>   
+
+            </section>
         </div>
 
         <div class="tab">
@@ -51,6 +87,12 @@
 
     </div>
 
+    <footer>
+    <div>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum omnis in neque quia accusamus ex tempore pariatur illum officiis dolores quisquam nam facere, quaerat culpa id minus? Perspiciatis, quos. Corrupti!
+    </div>
+    </footer>
+
 </template>
 
 
@@ -58,11 +100,13 @@
 <style>
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 header {
+width: 100%;
     height: 400px;
-    background: url(img/sky.jpg) top/cover no-repeat;
+    background: url(img/sky.jpg) top/cover no-repeat fixed;
 }
 
 /* Все вкладки */
@@ -113,14 +157,15 @@ header {
     /* Параметры рамки */
     border: 2px solid #dfeffe;
     /* Поля вокруг текста */
-    padding: 10px;
+    padding: 20px;
     /* Размещаем у левого края */
     left: 0;
     /* Ширина содержимого */
-    width: calc(100% - 22px);
+    width: 100%;
     /* Прячем вкладку */
     display: none;
     box-shadow: 0 0 20px rgb(134, 134, 134);
+    overflow: auto;
 }
 
 .tab :checked+.tab-title {
@@ -139,6 +184,29 @@ header {
     display: block;
 }
 
+.tab-content div {
+    background: rgba(205, 241, 253, 0.729);
+    max-width: 80%;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(134, 134, 134);
+} 
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background: rgba(123, 166, 194, 0.797);
+    height: 200px;
+    position: absolute;
+    top: 150%;
+    box-shadow: 0 0 20px rgb(134, 134, 134);
+    border-radius: 10px 10px 0 0; 
+}
+
 /* Источник с вкладками: https://webref.ru/layout/pseudo-class-checked/tabs */
 /* Полезная ссылка: http://swiperjs.com/ */
+
+
 </style>
