@@ -181,6 +181,7 @@ header {
     background: url(img/sky.jpg) top/cover no-repeat fixed;
 }
 
+/* Навигация-меню слева */
 nav {
     position: absolute;
     background: #dfeffe78;
@@ -211,7 +212,7 @@ nav ul a {
     position: relative;
     top: -48px;
     margin-left: 200px;
-    /* margin-right: 143px; */
+    margin-right: 150px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2rem;
 }
@@ -251,6 +252,7 @@ nav ul a {
     position: absolute;
     /* Параметры рамки */
     border: 2px solid #dfeffe;
+    border-radius: 5px;
     /* Поля вокруг текста */
     padding: 20px;
     /* Размещаем у левого края */
