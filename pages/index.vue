@@ -150,7 +150,7 @@ width: 100%;
 }
 
 nav {
-    position: relative;
+    position: absolute;
 }
 
 /* Все вкладки */
