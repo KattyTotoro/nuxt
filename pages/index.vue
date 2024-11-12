@@ -185,8 +185,9 @@ header {
 nav {
     position: absolute;
     background: #dfeffe78;
+    font-size: 1.1rem;
     margin-top: 30px;
-    padding: 20px 20px 20px 1px;
+    padding: 20px 30px 20px 0;
     border-radius: 0 8px 8px 0;
     box-shadow: 0 0 20px rgb(134, 134, 134);
 }
@@ -195,6 +196,7 @@ nav ul {
     position: sticky;
     top: 0%;
     list-style-type: none;
+    padding-left: 20px;
 }
 
 nav li {
@@ -203,7 +205,7 @@ nav li {
 
 nav ul a {
     text-decoration: none;
-    color: rgb(37, 96, 155);
+    color: rgb(40, 65, 91);
 }
 
 /* Все вкладки */
