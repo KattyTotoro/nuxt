@@ -6,14 +6,15 @@
     <header></header>
 
     <nav>
-    <ul>
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
-    </ul>
+        <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Статьи</a></li>
+            <li><a href="#">Видео</a></li>
+            <li><a href="#">Музыка</a></li>
+            <li><a href="#">Рецепты</a></li>
+            <li><a href="#">Путешествия</a></li>
+            <li><a href="#">Подкаст</a></li>
+        </ul>
     </nav>
 
     <div class="tabs">
@@ -22,47 +23,63 @@
             <input type="radio" id="tab1" name="tab-group" checked>
             <label for="tab1" class="tab-title">Главная</label>
             <section class="tab-content">
-            <h1>Главная</h1>
+                <h1>Главная</h1>
 
-             <div>
-             <h2>Статья 1</h2>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
-             <br>
-             <a href="#">Подробнее</a>
-             </div>  
+                <div>
+                    <h2>Статья 1</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                    <br>
+                    <a href="#">Подробнее</a>
+                </div>
 
-             <div>
-             <h2>Видео 1</h2>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
-             <br>
-             <a href="#">Подробнее</a>
-             </div>  
+                <div>
+                    <h2>Видео 1</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                    <br>
+                    <a href="#">Подробнее</a>
+                </div>
 
-             <div>
-             <h2>Статья 2</h2>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
-             </div>  
+                <div>
+                    <h2>Статья 2</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                </div>
 
-             <div>
-             <h2>Видео 2</h2>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
-             </div>   
-             <div>
-             <h2>Lorem illo!</h2>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
-             </div>   
-             <div>
-             <h2>Lorem illo!</h2>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
-             </div>   
-             <div>
-             <h2>Lorem illo!</h2>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
-             </div>   
-             <div>
-             <h2>Lorem illo!</h2>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
-             </div>   
+                <div>
+                    <h2>Видео 2</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                </div>
+                <div>
+                    <h2>Lorem illo!</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                </div>
+                <div>
+                    <h2>Lorem illo!</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                </div>
+                <div>
+                    <h2>Lorem illo!</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                </div>
+                <div>
+                    <h2>Lorem illo!</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                </div>
 
             </section>
         </div>
@@ -71,26 +88,39 @@
             <input type="radio" id="tab2" name="tab-group">
             <label for="tab2" class="tab-title">Статьи</label>
             <section class="tab-content">
-            <h1>Статьи</h1>
+                <h1>Статьи</h1>
 
-            <div>
-             <h2>Lorem illo!</h2>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
-             </div>   
+                <div>
+                    <h2>Lorem illo!</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                </div>
 
-             <div>
-             <h2>Lorem illo!</h2>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
-             </div>   <div>
-             <h2>Lorem illo!</h2>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
-             </div>   <div>
-             <h2>Lorem illo!</h2>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
-             </div>   <div>
-             <h2>Lorem illo!</h2>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo, reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae, quaerat sunt nam non dolores blanditiis.
-             </div>   
+                <div>
+                    <h2>Lorem illo!</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                </div>
+                <div>
+                    <h2>Lorem illo!</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                </div>
+                <div>
+                    <h2>Lorem illo!</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                </div>
+                <div>
+                    <h2>Lorem illo!</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                </div>
 
             </section>
         </div>
@@ -128,9 +158,10 @@
     </div>
 
     <footer>
-    <div>
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum omnis in neque quia accusamus ex tempore pariatur illum officiis dolores quisquam nam facere, quaerat culpa id minus? Perspiciatis, quos. Corrupti!
-    </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum omnis in neque quia accusamus ex tempore
+            pariatur illum officiis dolores quisquam nam facere, quaerat culpa id minus? Perspiciatis, quos. Corrupti!
+        </div>
     </footer>
 
 </template>
@@ -141,16 +172,35 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
-width: 100%;
+    width: 100%;
     height: 400px;
     background: url(img/sky.jpg) top/cover no-repeat fixed;
 }
 
 nav {
     position: absolute;
+    background: #dfeffe78;
+    margin-top: 30px;
+    padding: 20px 20px 20px 1px;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 0 20px rgb(134, 134, 134);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    margin-top: 10px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: rgb(37, 96, 155);
 }
 
 /* Все вкладки */
@@ -235,7 +285,7 @@ nav {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgb(134, 134, 134);
-} 
+}
 
 footer {
     width: 100%;
@@ -245,11 +295,9 @@ footer {
     position: absolute;
     top: 150%;
     box-shadow: 0 0 20px rgb(134, 134, 134);
-    border-radius: 10px 10px 0 0; 
+    border-radius: 10px 10px 0 0;
 }
 
 /* Источник с вкладками: https://webref.ru/layout/pseudo-class-checked/tabs */
 /* Полезная ссылка: http://swiperjs.com/ */
-
-
 </style>
