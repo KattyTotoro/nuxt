@@ -191,6 +191,8 @@ nav {
 }
 
 nav ul {
+    position: sticky;
+    top: 0%;
     list-style-type: none;
 }
 
