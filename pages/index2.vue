@@ -19,7 +19,7 @@
 
     <div class="topMenu">
 
-        <button class="topMenuButton"><a href="#">Главная</a></button>
+        <button class="topMenuButton" style="background: #fff"><a href="#">Главная</a></button>
         <button class="topMenuButton"><a href="#">Статьи</a></button>
         <button class="topMenuButton"><a href="#">Видео</a></button>
         <button class="topMenuButton"><a href="#">Музыка</a></button>
@@ -28,6 +28,71 @@
         <button class="topMenuButton"><a href="#">Подкаст</a></button>
 
         
+    </div>
+
+    <div>
+    
+        <section class="content">
+                <h1>Главная</h1>
+
+                <div>
+                    <h2>Статья 1</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                    <br>
+                    <a href="#">Подробнее</a>
+                </div>
+
+                <div>
+                    <h2>Видео 1</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                    <br>
+                    <a href="#">Подробнее</a>
+                </div>
+
+                <div>
+                    <h2>Статья 2</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                </div>
+
+                <div>
+                    <h2>Видео 2</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                </div>
+                <div>
+                    <h2>Lorem illo!</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                </div>
+                <div>
+                    <h2>Lorem illo!</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                </div>
+                <div>
+                    <h2>Lorem illo!</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                </div>
+                <div>
+                    <h2>Lorem illo!</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                    quaerat sunt nam non dolores blanditiis.
+                </div>
+
+            </section>
+
     </div>
 
     <footer>
@@ -85,50 +150,40 @@ nav ul a, .topMenuButton a {
     position: relative;
     top: -55px;
     margin-left: 200px;
-    margin-right: 150px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.5rem;
+    z-index: 2;
 }
 
 /* Заголовок кнопки */
 .topMenuButton {
     width: 200px;
-    /* Цвет фона */
     background: #dfeffe78;
-    /* Поля вокруг текста */
     padding: 10px 10px;
-    /* Параметры рамки */
     border: 3px solid #dfeffe;
     border-radius: 10px 10px 0 0;
-    /* Снизу линию убираем */
+    box-shadow: 0 0 20px whitesmoke;
     border-bottom: none;
     text-align: center;
-    box-shadow: 0 0 20px whitesmoke;
     font-size: 1.5rem;
-
 }
 
 /* Содержимое вкладки */
-.tab-content {
+.content {
     height: 800px;
-    /* Абсолютное позиционирование */
     position: absolute;
-    /* Параметры рамки */
+    top: 39%;
+    margin-left: 200px;
+    margin-right: 150px;
     border: 2px solid #dfeffe;
-    border-radius: 5px;
-    /* Поля вокруг текста */
+    box-shadow: 0 20px 30px rgb(134, 134, 134);
+    border-top: none;
     padding: 20px;
-    /* Размещаем у левого края */
-    left: 0;
-    /* Ширина содержимого */
-    width: 100%;
-    /* Прячем вкладку */
-    display: none;
-    box-shadow: 0 0 20px rgb(134, 134, 134);
+    /* width: 100%; */
     overflow: auto;
 }
 
-.tab-content div {
+.content div {
     background: rgba(205, 241, 253, 0.729);
     max-width: 80%;
     margin-left: 100px;
