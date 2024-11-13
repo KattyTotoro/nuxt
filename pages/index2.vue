@@ -56,7 +56,7 @@ header {
 
 /* Навигация-меню слева */
 nav {
-    position: absolute;
+    position: sticky;
     background: #dfeffe78;
     font-size: 1.1rem;
     margin-top: 30px;
@@ -66,8 +66,6 @@ nav {
 }
 
 nav ul {
-    position: sticky;
-    top: 0%;
     list-style-type: none;
     padding-left: 20px;
 }
