@@ -56,7 +56,7 @@ header {
 
 /* Навигация-меню слева */
 nav {
-    position: sticky;
+    position: absolute;
     background: #dfeffe78;
     font-size: 1.1rem;
     margin-top: 30px;
