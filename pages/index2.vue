@@ -3,7 +3,22 @@
     <h1>Hello from index_2 page</h1>
 
 
-    <header></header>
+    <header>
+
+        <div class="topMenu">
+
+            <button class="topMenuButton" style="background: #fff"><a href="/index2">Главная</a></button>
+            <button class="topMenuButton"><a href="/articles">Статьи</a></button>
+            <button class="topMenuButton"><a href="#">Видео</a></button>
+            <button class="topMenuButton"><a href="#">Музыка</a></button>
+            <button class="topMenuButton"><a href="#">Рецепты</a></button>
+            <button class="topMenuButton"><a href="#">Путешествия</a></button>
+            <button class="topMenuButton"><a href="#">Подкаст</a></button>
+
+
+        </div>
+
+    </header>
 
     <nav>
         <ul>
@@ -17,18 +32,7 @@
         </ul>
     </nav>
 
-    <div class="topMenu">
 
-        <button class="topMenuButton" style="background: #fff"><a href="/index2">Главная</a></button>
-        <button class="topMenuButton"><a href="/articles">Статьи</a></button>
-        <button class="topMenuButton"><a href="#">Видео</a></button>
-        <button class="topMenuButton"><a href="#">Музыка</a></button>
-        <button class="topMenuButton"><a href="#">Рецепты</a></button>
-        <button class="topMenuButton"><a href="#">Путешествия</a></button>
-        <button class="topMenuButton"><a href="#">Подкаст</a></button>
-
-
-    </div>
 
     <div>
 
@@ -114,6 +118,7 @@
 }
 
 header {
+    position: relative;
     width: 100%;
     height: 300px;
     background: url(img/sky.jpg) top/cover no-repeat fixed;
@@ -145,18 +150,18 @@ nav ul a,
     color: rgb(40, 65, 91);
 }
 
-/* Все кнопки меню */
+/* Все кнопки верхнего меню */
 .topMenu {
-    /* Относительное позиционирование */
-    position: relative;
-    top: -55px;
+    position: absolute;
+    bottom: 0%;
+    display: flex;
     margin-left: 200px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.5rem;
-    z-index: 2;
+    /* z-index: 2; */
 }
 
-/* Заголовок кнопки */
+/* Кнопка верхнего меню */
 .topMenuButton {
     width: 200px;
     background: #dfeffe78;

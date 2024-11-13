@@ -19,78 +19,78 @@
 
     <div class="topMenu">
 
-        <button class="topMenuButton"><a href="/pages/index2.vue">Главная</a></button>
-        <button class="topMenuButton" style="background: #fff"><a href="#">Статьи</a></button>
+        <button class="topMenuButton"><a href="/index2">Главная</a></button>
+        <button class="topMenuButton" style="background: #fff"><a href="/articles">Статьи</a></button>
         <button class="topMenuButton"><a href="#">Видео</a></button>
         <button class="topMenuButton"><a href="#">Музыка</a></button>
         <button class="topMenuButton"><a href="#">Рецепты</a></button>
         <button class="topMenuButton"><a href="#">Путешествия</a></button>
         <button class="topMenuButton"><a href="#">Подкаст</a></button>
 
-        
+
     </div>
 
     <div>
-    
+
         <section class="content">
-                <h1>Статьи</h1>
+            <h1>Статьи</h1>
 
-                <div>
-                    <h2>Статья 1</h2>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
-                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
-                    quaerat sunt nam non dolores blanditiis.
-                    <br>
-                    <a href="#">Подробнее</a>
-                </div>
+            <div>
+                <h2>Статья 1</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                quaerat sunt nam non dolores blanditiis.
+                <br>
+                <a href="#">Подробнее</a>
+            </div>
 
-               <div>
-                    <h2>Статья 2</h2>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
-                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
-                    quaerat sunt nam non dolores blanditiis.
-                </div>
+            <div>
+                <h2>Статья 2</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                quaerat sunt nam non dolores blanditiis.
+            </div>
 
-                <div>
-                    <h2>Статья 3</h2>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
-                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
-                    quaerat sunt nam non dolores blanditiis.
-                </div>
+            <div>
+                <h2>Статья 3</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                quaerat sunt nam non dolores blanditiis.
+            </div>
 
-                <div>
-                    <h2>Статья 4</h2>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
-                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
-                    quaerat sunt nam non dolores blanditiis.
-                </div>
+            <div>
+                <h2>Статья 4</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                quaerat sunt nam non dolores blanditiis.
+            </div>
 
-                <div>
-                    <h2>Статья 5</h2>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
-                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
-                    quaerat sunt nam non dolores blanditiis.
-                </div>
-                <div>
-                    <h2>Статья 6</h2>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
-                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
-                    quaerat sunt nam non dolores blanditiis.
-                </div>
-                <div>
-                    <h2>Статья 7</h2>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
-                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
-                    quaerat sunt nam non dolores blanditiis.
-                </div>
-                <div>
-                    <h2>Статья 8</h2>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
-                    reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
-                    quaerat sunt nam non dolores blanditiis.
-                </div>
+            <div>
+                <h2>Статья 5</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                quaerat sunt nam non dolores blanditiis.
+            </div>
+            <div>
+                <h2>Статья 6</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                quaerat sunt nam non dolores blanditiis.
+            </div>
+            <div>
+                <h2>Статья 7</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                quaerat sunt nam non dolores blanditiis.
+            </div>
+            <div>
+                <h2>Статья 8</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci veniam error fugit nemo,
+                reprehenderit consequatur eligendi molestiae beatae similique amet officia quidem recusandae,
+                quaerat sunt nam non dolores blanditiis.
+            </div>
 
-            </section>
+        </section>
 
     </div>
 
@@ -138,10 +138,10 @@ nav li {
     margin-top: 10px;
 }
 
-nav ul a, .topMenuButton a {
+nav ul a,
+.topMenuButton a {
     text-decoration: none;
     color: rgb(40, 65, 91);
-    padding: 10px 10px;
 }
 
 /* Все кнопки меню */
