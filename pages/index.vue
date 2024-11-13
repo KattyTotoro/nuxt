@@ -177,7 +177,7 @@
 
 header {
     width: 100%;
-    height: 400px;
+    height: 300px;
     background: url(img/sky.jpg) top/cover no-repeat fixed;
 }
 
