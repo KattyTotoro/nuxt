@@ -16,25 +16,35 @@ nav {
     background: #dfeffe78;
     font-size: 1.1rem;
     margin-top: 30px;
-    padding: 20px 30px 20px 0;
+    padding: 0;
     border-radius: 0 8px 8px 0;
     box-shadow: 0 0 20px rgb(134, 134, 134);
 }
 
 nav ul {
     list-style-type: none;
-    padding-left: 20px;
+    padding: 0;
+    margin: 0;
 }
 
-nav li {
-    margin-top: 10px;
+nav ul li {
+    background-color: #90c8f79a;
+    padding: 20px 0;
+    transition: 1s;
+}
+
+nav ul a:hover {
+    background-color: #4c6be6df;
+    color: rgb(215, 234, 250);
+    box-shadow: 0 0 16px #88baf38d;
+    transition: 0.8s;
 }
 
 nav ul a,
 a.topMenuButton {
     text-decoration: none;
     color: rgb(40, 65, 91);
-
+    padding: 20px 40px 20px 20px;
 }
 
 /* Все кнопки меню */
@@ -99,5 +109,5 @@ footer {
 }
 
 .currentLink {
-    background-color: rgb(194, 33, 157);
+    background-color: #ffffff;
 }

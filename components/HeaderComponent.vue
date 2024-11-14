@@ -4,7 +4,7 @@
 
 <nav>
     <ul>
-        <li><a href="#">Главная</a></li>
+        <li><NuxtLink :class="route.path=='/'?'currentLink':''" href="/">Главная</NuxtLink></li>
         <li><a href="#">Статьи</a></li>
         <li><a href="#">Видео</a></li>
         <li><a href="#">Музыка</a></li>
@@ -18,11 +18,11 @@
 
     <NuxtLink class="topMenuButton" :class="route.path=='/'?'currentLink':''" href="/">Главная</NuxtLink>
     <NuxtLink class="topMenuButton" :class="route.path=='/articles'?'currentLink':''" href="/articles">Статьи</NuxtLink>
-    <button class="topMenuButton"><a href="#">Видео</a></button>
-    <button class="topMenuButton"><a href="#">Музыка</a></button>
-    <button class="topMenuButton"><a href="#">Рецепты</a></button>
-    <button class="topMenuButton"><a href="#">Путешествия</a></button>
-    <button class="topMenuButton"><a href="#">Подкаст</a></button>
+    <NuxtLink class="topMenuButton" :class="route.path=='/videos'?'currentLink':''" href="/videos">Видео</NuxtLink>
+    <NuxtLink class="topMenuButton" :class="route.path=='/music'?'currentLink':''" href="/music">Музыка</NuxtLink>
+    <NuxtLink class="topMenuButton" :class="route.path=='/recipes'?'currentLink':''" href="/recipes">Рецепты</NuxtLink>
+    <NuxtLink class="topMenuButton" :class="route.path=='/trips'?'currentLink':''" href="/trips">Путешествия</NuxtLink>
+    <NuxtLink class="topMenuButton" :class="route.path=='/podcast'?'currentLink':''" href="/podcast">Подкаст</NuxtLink>
 
 
 </div>
