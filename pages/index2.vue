@@ -118,7 +118,7 @@
 }
 
 header {
-    position: relative;
+    /* position: relative; */
     width: 100%;
     height: 300px;
     background: url(img/sky.jpg) top/cover no-repeat fixed;
@@ -152,7 +152,7 @@ nav ul a,
 
 /* Все кнопки верхнего меню */
 .topMenu {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0%;
     display: flex;
     margin-left: 200px;

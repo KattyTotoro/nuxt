@@ -147,7 +147,7 @@ nav ul a,
 /* Все кнопки меню */
 .topMenu {
     /* Относительное позиционирование */
-    position: relative;
+    /* position: relative; */
     top: -55px;
     margin-left: 200px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
