@@ -2,17 +2,7 @@
 
 <header></header>
 
-<nav>
-    <ul>
-        <li><NuxtLink :class="route.path=='/'?'currentLink':''" href="/">Главная</NuxtLink></li>
-        <li><a href="#">Статьи</a></li>
-        <li><a href="#">Видео</a></li>
-        <li><a href="#">Музыка</a></li>
-        <li><a href="#">Рецепты</a></li>
-        <li><a href="#">Путешествия</a></li>
-        <li><a href="#">Подкаст</a></li>
-    </ul>
-</nav>
+
 
 <div class="topMenu">
 
@@ -26,6 +16,18 @@
 
 
 </div>
+
+<nav>
+    <ul>
+        <li><NuxtLink :class="route.path=='/'?'currentLink':''" href="/">Главная</NuxtLink></li>
+        <li><a href="#">Статьи</a></li>
+        <li><a href="#">Видео</a></li>
+        <li><a href="#">Музыка</a></li>
+        <li><a href="#">Рецепты</a></li>
+        <li><a href="#">Путешествия</a></li>
+        <li><a href="#">Подкаст</a></li>
+    </ul>
+</nav>
 
 </template>
 
