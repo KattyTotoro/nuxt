@@ -110,6 +110,10 @@ a.topMenuButton {
     cursor: pointer;
 }
 
+h1 {
+    margin: 30px 0px 50px;
+}
+
 /* Содержимое вкладки */
 .content {
     margin-left: 200px;
