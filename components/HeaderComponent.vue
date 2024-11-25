@@ -1,8 +1,6 @@
 <template>
 
-<header></header>
-
-
+<header>
 
 <div class="topMenu">
 
@@ -16,6 +14,8 @@
 
 
 </div>
+
+</header>
 
 <nav>
     <ul>
