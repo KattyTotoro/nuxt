@@ -2,6 +2,10 @@
 
 <header>
 
+<div>
+<h1>Вдохновение</h1>
+</div>
+
 <div class="topMenu">
 
     <NuxtLink class="topMenuButton" :class="route.path=='/'?'currentLink':''" href="/">Главная</NuxtLink>
